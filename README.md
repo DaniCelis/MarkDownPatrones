@@ -203,6 +203,24 @@ Es conocido como Wrapper (al patrón Decorator también se lo llama Wrapper, con
 Puede ser utilizado en infinitas ocasiones y se le puede otorgar varios usos. Tiene una gran ventaja y es que no obliga al desarrollador a crear demasiada estructura para realizar este patrón, sino que es una forma estándar de acceder a una clase que potencialmente puede ser conflictiva. Por otro lado, no ayuda al desarrollador a crear un algoritmo, sino que el desarrollador tiene que hacer toda la lógica.
 
 
+   ##COMPOSITE
+
+1. **Funcionalidad**
+
+      Composite sirve para construir algoritmos u objetos complejos a partir de otros más simples y similares entre sí, gracias a la composición recursiva y a una estructura en forma de árbol. Dicho de otra forma, permite construir objetos complejos componiendo de forma recursiva objetos similares en una estructura de árbol.
+
+
+2. **Diagrama**
+
+      
+![Diagrama de el patron composite][imagencomposite]
+
+
+
+3. **Motivo de Eleccion**
+
+Este patrón busca representar una jerarquía de objetos conocida como “parte-todo”, donde se sigue la teoría de que las "partes" forman el "todo", siempre teniendo en cuenta que cada "parte" puede tener otras "parte" dentro. 
+
 [imagenAdapter]:https://danielggarcia.files.wordpress.com/2014/02/021914_0036_patronesest1.png?w=620
 [imagenBridge]:https://danielggarcia.files.wordpress.com/2014/03/031614_2328_patronesest1.png?w=620
 [imagenFacade]:https://danielggarcia.files.wordpress.com/2014/02/022014_2335_patronesest1.png?w=620
