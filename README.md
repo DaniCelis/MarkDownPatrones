@@ -1,4 +1,25 @@
 # MarkDownPatrones
+# MarkDownPatrones
+
+##ADAPTER
+
+1. **Funcionalidad**
+
+      Busca una manera estandarizada de adaptar un objeto a otro. Se utiliza para transformar una interfaz en otra, de tal modo que una clase que no pudiera utilizar la primera, haga uso de ella a través de la segunda.
+Es conocido como Wrapper (al patrón Decorator también se lo llama Wrapper, con lo cual es nombre Wrapper muchas veces se presta a confusión). 
+
+2. **Diagrama**
+
+      ![Diagrama de el patron Builder][imagenAdapter]
+
+3. **Motivo de Eleccion**
+
+       Se quiere utilizar una clase que llame a un método a través de una interface, pero se busca utilizarlo con una clase que no implementa ese interface.
+       Se busca determinar dinámicamente que métodos de otros objetos llama un objeto.
+       No se quiere que el objeto llamado tenga conocimientos de la otra clase de objetos.
+       Este patrón convierte la interfaz de una clase en otra interfaz que el cliente espera. Esto permite a las clases trabajar juntas,        lo que de otra manera no podrían hacerlo debido a sus interfaces incompatibles.
+
+
 ##BUILDER
 
 1. **Funcionalidad**
@@ -144,22 +165,8 @@
 3. **Motivo de Eleccion**
 
       Este patron tiene aplicabilidad cuando el usuario tiene distintas interfaces con distintos comportamientos que requieren ser restructurados o reformados, presentar una categoria abstracta que permita derivar la creacion y comportamiento de distintos tipos de objetos. 
-      
-##PROXY
 
-1. **Funcionalidad**
-
-       proxy se utiliza como intermediario para acceder a un objeto, permitiendo controlar el acceso a el. Para ello obliga que las llamadas a un objeto ocurran indirectamente a través de un objeto proxy, que actúa como un sustituto del objeto original, delegando luego las llamadas a los métodos de los objetos respectivos.
-      
-2. **Diagrama**
-
-      ![Diagrama de el patron proxy][imagenproxy]
-
-3. **Motivo de Eleccion**
-
-      Puede ser utilizado en infinitas ocasiones y se le puede otorgar varios usos. Tiene una gran ventaja y es que no obliga al desarrollador a crear demasiada estructura para realizar este patrón, sino que es una forma estándar de acceder a una clase que potencialmente puede ser conflictiva. Por otro lado, no ayuda al desarrollador a crear un algoritmo, sino que el desarrollador tiene que hacer toda la lógica.
-
-       
+[imageAdapter]:https://danielggarcia.files.wordpress.com/2014/02/021914_0036_patronesest1.png?w=620
 [imagenBridge]:https://danielggarcia.files.wordpress.com/2014/03/031614_2328_patronesest1.png?w=620
 [imagenFacade]:https://danielggarcia.files.wordpress.com/2014/02/022014_2335_patronesest1.png?w=620
 [imagenSingleton]:https://danielggarcia.files.wordpress.com/2014/02/021714_0053_patronesdec1.png?w=620
@@ -168,6 +175,5 @@
 [imagendecorator]:https://danielggarcia.files.wordpress.com/2014/03/030914_2321_patronesest1.png?w=620
 [imagenfactorymethod]:https://danielggarcia.files.wordpress.com/2014/03/031614_2328_patronesest1.png?w=620
 [imagenabstractfactory]:https://danielggarcia.files.wordpress.com/2014/03/031614_2328_patronesest1.png?w=620
-[imagenproxy]:https://danielggarcia.files.wordpress.com/2014/03/031614_2328_patronesest1.png?w=620
 
 
