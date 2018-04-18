@@ -1,5 +1,4 @@
 # MarkDownPatrones
-# MarkDownPatrones
 
 ##ADAPTER
 
