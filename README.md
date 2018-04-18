@@ -152,6 +152,6 @@
 [imagenprototype]: https://danielggarcia.files.wordpress.com/2014/02/021614_1902_patronesdec1.png?w=620
 [imagendecorator]:https://danielggarcia.files.wordpress.com/2014/03/030914_2321_patronesest1.png?w=620
 [imagenfactorymethod]:https://danielggarcia.files.wordpress.com/2014/03/031614_2328_patronesest1.png?w=620
-[imagenabstracefactory]:https://danielggarcia.files.wordpress.com/2014/03/031614_2328_patronesest1.png?w=620
+[imagenabstractfactory]:https://danielggarcia.files.wordpress.com/2014/03/031614_2328_patronesest1.png?w=620
 
 
