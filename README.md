@@ -116,6 +116,34 @@
 3. **Motivo de Eleccion**
 
       Este patron permite la representacion de objetos unívoco durante el ciclo de vida del sistema puede llegar a ser muy útil en casos donde es estrictamente necesario tratar con una y solo una instancia de dicho objeto por ejemplo un servidor teniendo como exepcion los casos donde a un objeto sean necesarias multiples instancias 
+
+##FACTORY METHOD
+
+1. **Funcionalidad**
+
+       Este patrón permite abstraer la forma en la que se crean los objetos, permitiendo tratar las clases a crear de forma genérica dejando para más tarde la decisión de qué clases crear o cómo crearlas.
+       
+2. **Diagrama**
+
+      ![Diagrama de el patron factoy method][imagenfactorymethod]
+
+3. **Motivo de Eleccion**
+
+      Factory method es para aplicaciones que pueden presentar múltiples documentos a los usuarios. Las principales abstracciones en este Framework son las clases Application y Document, ambas clases son abstractas y los clientes tienen que dejar a las subclases sus implementaciones específicas de la aplicación.
+      
+##ABSTRACT FACTORY
+
+1. **Funcionalidad**
+
+       Este patrón permite proporciona una interfaz de familias de objetos o que depenen entre si, sin especificar sus clases concretas.
+       
+2. **Diagrama**
+
+      ![Diagrama de el patron abstract factoy][imagenabstractfactory]
+
+3. **Motivo de Eleccion**
+
+      Este patron tiene aplicabilidad cuando el usuario tiene distintas interfaces con distintos comportamientos que requieren ser restructurados o reformados, presentar una categoria abstracta que permita derivar la creacion y comportamiento de distintos tipos de objetos. 
        
 [imagenBridge]:https://danielggarcia.files.wordpress.com/2014/03/031614_2328_patronesest1.png?w=620
 [imagenFacade]:https://danielggarcia.files.wordpress.com/2014/02/022014_2335_patronesest1.png?w=620
@@ -123,3 +151,7 @@
 [imagenbuilder]: https://danielggarcia.files.wordpress.com/2014/02/builder.png
 [imagenprototype]: https://danielggarcia.files.wordpress.com/2014/02/021614_1902_patronesdec1.png?w=620
 [imagendecorator]:https://danielggarcia.files.wordpress.com/2014/03/030914_2321_patronesest1.png?w=620
+[imagenfactorymethod]:https://danielggarcia.files.wordpress.com/2014/03/031614_2328_patronesest1.png?w=620
+[imagenabstracefactory]:https://danielggarcia.files.wordpress.com/2014/03/031614_2328_patronesest1.png?w=620
+
+
