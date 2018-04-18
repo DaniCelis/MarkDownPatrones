@@ -232,4 +232,5 @@ Este patrón busca representar una jerarquía de objetos conocida como “parte-
 [imagenabstractfactory]:https://danielggarcia.files.wordpress.com/2014/03/031614_2328_patronesest1.png?w=620
 [imagenflyweight]:https://danielggarcia.files.wordpress.com/2014/03/032414_2059_patronesest1.png?w=620
 [imagenproxy]:https://danielggarcia.files.wordpress.com/2014/04/040614_2034_patronesest1.png?w=620
+imagencomposite]: https://danielggarcia.files.wordpress.com/2014/03/033014_1801_patronesest1.png?w=620
 
