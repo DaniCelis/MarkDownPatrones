@@ -10,7 +10,7 @@ Es conocido como Wrapper (al patrón Decorator también se lo llama Wrapper, con
 
 2. **Diagrama**
 
-      ![Diagrama de el patron Builder][imagenAdapter]
+      ![Diagrama de el patron Adapter][imagenAdapter]
 
 3. **Motivo de Eleccion**
 
@@ -166,7 +166,7 @@ Es conocido como Wrapper (al patrón Decorator también se lo llama Wrapper, con
 
       Este patron tiene aplicabilidad cuando el usuario tiene distintas interfaces con distintos comportamientos que requieren ser restructurados o reformados, presentar una categoria abstracta que permita derivar la creacion y comportamiento de distintos tipos de objetos. 
 
-[imageAdapter]:https://danielggarcia.files.wordpress.com/2014/02/021914_0036_patronesest1.png?w=620
+[imagenAdapter]:https://danielggarcia.files.wordpress.com/2014/02/021914_0036_patronesest1.png?w=620
 [imagenBridge]:https://danielggarcia.files.wordpress.com/2014/03/031614_2328_patronesest1.png?w=620
 [imagenFacade]:https://danielggarcia.files.wordpress.com/2014/02/022014_2335_patronesest1.png?w=620
 [imagenSingleton]:https://danielggarcia.files.wordpress.com/2014/02/021714_0053_patronesdec1.png?w=620
