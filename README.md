@@ -213,5 +213,5 @@ Puede ser utilizado en infinitas ocasiones y se le puede otorgar varios usos. Ti
 [imagenfactorymethod]:https://danielggarcia.files.wordpress.com/2014/03/031614_2328_patronesest1.png?w=620
 [imagenabstractfactory]:https://danielggarcia.files.wordpress.com/2014/03/031614_2328_patronesest1.png?w=620
 [imagenflyweight]:https://danielggarcia.files.wordpress.com/2014/03/032414_2059_patronesest1.png?w=620
-
+[imagenproxy]:https://danielggarcia.files.wordpress.com/2014/04/040614_2034_patronesest1.png?w=620
 
