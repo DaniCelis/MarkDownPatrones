@@ -164,6 +164,25 @@ Es conocido como Wrapper (al patrón Decorator también se lo llama Wrapper, con
 3. **Motivo de Eleccion**
 
       Este patron tiene aplicabilidad cuando el usuario tiene distintas interfaces con distintos comportamientos que requieren ser restructurados o reformados, presentar una categoria abstracta que permita derivar la creacion y comportamiento de distintos tipos de objetos. 
+      
+##FLYWEIGHT
+
+1. **Funcionalidad**
+
+      Busca eliminar o reducir la redundancia cuando tenemos gran cantidad de objetos que contienen información idéntica, además de           lograr un equilibrio entre flexibilidad y rendimiento (uso de recursos).
+
+
+2. **Diagrama**
+
+      
+![Diagrama de el patron Flyweight][imagenflyweight]
+
+
+
+3. **Motivo de Eleccion**
+
+     Este patrón quiere evitar el hecho de crear un gran número estados de objeto para representar a un sistema. Permite compartir            estados para soportar un gran número de objetos pequeños aumentando la eficiencia en espacio. Este patrón quiere evitar el hecho de      crear un gran número estados de objeto para representar a un sistema. Es muy util al momento de eliminar o reducri la redundancia        cuando se tiene a gran cantidad de objetos que continen la misma informacion.
+      
 
 [imagenAdapter]:https://danielggarcia.files.wordpress.com/2014/02/021914_0036_patronesest1.png?w=620
 [imagenBridge]:https://danielggarcia.files.wordpress.com/2014/03/031614_2328_patronesest1.png?w=620
@@ -174,5 +193,6 @@ Es conocido como Wrapper (al patrón Decorator también se lo llama Wrapper, con
 [imagendecorator]:https://danielggarcia.files.wordpress.com/2014/03/030914_2321_patronesest1.png?w=620
 [imagenfactorymethod]:https://danielggarcia.files.wordpress.com/2014/03/031614_2328_patronesest1.png?w=620
 [imagenabstractfactory]:https://danielggarcia.files.wordpress.com/2014/03/031614_2328_patronesest1.png?w=620
+[imagenflyweight]:https://danielggarcia.files.wordpress.com/2014/03/032414_2059_patronesest1.png?w=620
 
 
