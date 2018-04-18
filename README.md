@@ -183,6 +183,25 @@ Es conocido como Wrapper (al patrón Decorator también se lo llama Wrapper, con
 
      Este patrón quiere evitar el hecho de crear un gran número estados de objeto para representar a un sistema. Permite compartir            estados para soportar un gran número de objetos pequeños aumentando la eficiencia en espacio. Este patrón quiere evitar el hecho de      crear un gran número estados de objeto para representar a un sistema. Es muy util al momento de eliminar o reducri la redundancia        cuando se tiene a gran cantidad de objetos que continen la misma informacion.
       
+      ##PROXY
+
+1. **Funcionalidad**
+
+      Proxy se utiliza como intermediario para acceder a un objeto, permitiendo controlar el acceso a el. Para ello obliga que las llamadas a un objeto ocurran indirectamente a través de un objeto proxy, que actúa como un sustituto del objeto original, delegando luego las llamadas a los métodos de los objetos respectivos.
+
+
+
+2. **Diagrama**
+
+      
+![Diagrama de el patron proxy][imagenproxy]
+
+
+
+3. **Motivo de Eleccion**
+
+Puede ser utilizado en infinitas ocasiones y se le puede otorgar varios usos. Tiene una gran ventaja y es que no obliga al desarrollador a crear demasiada estructura para realizar este patrón, sino que es una forma estándar de acceder a una clase que potencialmente puede ser conflictiva. Por otro lado, no ayuda al desarrollador a crear un algoritmo, sino que el desarrollador tiene que hacer toda la lógica.
+
 
 [imagenAdapter]:https://danielggarcia.files.wordpress.com/2014/02/021914_0036_patronesest1.png?w=620
 [imagenBridge]:https://danielggarcia.files.wordpress.com/2014/03/031614_2328_patronesest1.png?w=620
