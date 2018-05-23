@@ -384,6 +384,6 @@ Dado un lenguaje, define la representacion para su gramatica junto con un interp
 [imagenChain]: https://upload.wikimedia.org/wikipedia/commons/1/1f/Chain_of_responsibility.jpg
 [imagenStrategy]: https://danielggarcia.files.wordpress.com/2014/05/051214_2126_patronesdec1.png?w=620
 [imagenMediator]: https://www.programering.com/images/remote/ZnJvbT1jbmJsb2dzJnVybD13WnVCbkx3VVRaMGd6TnpRalkyWUROaFZXTjVVV09qUkRNbEZXWTJZMk4xRVRNbGxUTHhFak13WVRNeEV6TDNBek14QWpNdll6TTVrVE54OHladnhtWXYwMmJqNXladnhtWTBsbWJqNXljbGRXWXRsMkx2b0RjMFJIYQ.jpg
-[imagenIntrepreter]: http://www.juntadeandalucia.es/servicios/madeja/sites/default/files/imagecache/wysiwyg_imageupload_lightbox_preset/wysiwyg_imageupload/10/PatronInterprete.jpg
+[imagenInterpreter]: http://www.juntadeandalucia.es/servicios/madeja/sites/default/files/imagecache/wysiwyg_imageupload_lightbox_preset/wysiwyg_imageupload/10/PatronInterprete.jpg
 
 
