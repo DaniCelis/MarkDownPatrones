@@ -288,6 +288,81 @@ Si un objeto es el responsable de mantener un cierto tipo de información, enton
 
 Representa una operacion que debe ser llevada a cabo basada en los elementos de la estructura de un objeto. Visitor permite definir una nueva operacion sin cambiar las clases de los elementos en los que opera.
 
+##ITERATOR
+
+1. **Funcionalidad**
+
+Provee un mecanismo estándar para acceder secuencialmente a los elementos de una colección; define una interface que declara métodos para acceder secuencialmente a los objetos de una colección. Una clase accede a una colección a través de dicha interface.
+
+2. **Diagrama**
+
+![Diagrama de el patron Iterator][imagenIterator]
+
+3. **Motivo de Eleccion**
+
+Provee una forma de acceder elementos de un objeto secuencialmente sin exponer su representacion interna.
+
+##CHAIN OF RESPONSIBILITY
+
+1. **Funcionalidad**
+
+Permite establecer una cadena de objetos receptores a través de los cuales se pasa una petición formulada por un objeto emisor. La idea es que cualquiera de los receptores pueden responder a la petición en función de un criterio establecido. Encadena los objetos receptores y pasa la petición a través de la cadena hasta que es procesada por algún objeto. 
+
+2. **Diagrama**
+
+![Diagrama de el patron Chain of Responsibility][imagenChain]
+
+3. **Motivo de Eleccion**
+
+El patron evita acoplar el emisor de una peticion a su receptor dando a mas de un objeto la posibilidad de responder a una peticion.
+
+##STRATEGY
+
+1. **Funcionalidad**
+
+Encapsula algoritmos en clases, permitiendo que éstos sean re-utilizados e intercambiables. En base a un parámetro, que puede ser cualquier objeto, permite a una aplicación decidir en tiempo de ejecución el algoritmo que debe ejecutar.
+La esencia de este patrón es encapsular algoritmos relacionados que son subclases de una superclase común, lo que permite la selección de un algoritmo que varia según el objeto y también le permite la variación en el tiempo.
+
+2. **Diagrama**
+
+![Diagrama de el patron Strategy][imagenStrategy]
+
+3. **Motivo de Eleccion**
+
+Define una familia de algoritmos, encapsula cada uno y los hace intercambiables. Strategy permite que el algoritmo varie dependiendo el contexto. 
+
+##MEDIATOR
+
+1. **Funcionalidad**
+
+Un Mediator es un patrón de diseño que define un objeto que hace de procesador central, coordinando las relaciones entre sus asociados o participantes. Permite la interacción de varios objetos, sin generar acoples fuertes en esas relaciones. Todos los objetos se comunican con un mediador y es éste quién realiza la comunicación con el resto.
+
+2. **Diagrama**
+
+![Diagrama de el patron Mediator][imagenMediator]
+
+3. **Motivo de Eleccion**
+
+Define un objeto que encapsula como un grupo de objetos interactua. Promueve la relacion desligada, haciendo que los objetos no se refieran a otros explicitamente. 
+
+##INTERPRETER
+
+1. **Funcionalidad**
+
+Este patrón busca representar un lenguaje mediante reglas gramáticas. Para ello define estas reglas gramáticas y como interpretarlas. Utiliza una clase para representar una regla gramática.
+Si un tipo particular de problema se presenta frecuentemente, puede ser provechoso expresar los diferentes casos del problema como sentencias de un lenguaje simple. Se puede, entonces, construir un intérprete que resuelva el problema interpretando dichas sentencias.
+
+2. **Diagrama**
+
+![Diagrama de el patron Interpreter][imagenInterpreter]
+
+3. **Motivo de Eleccion**
+
+Dado un lenguaje, define la representacion para su gramatica junto con un interprete que usa la representacion para interpretar palabras en el lenguaje.
+
+
+
+
 
 [imagenAdapter]:https://danielggarcia.files.wordpress.com/2014/02/021914_0036_patronesest1.png?w=620
 [imagenBridge]:https://danielggarcia.files.wordpress.com/2014/03/031614_2328_patronesest1.png?w=620
@@ -305,5 +380,10 @@ Representa una operacion que debe ser llevada a cabo basada en los elementos de 
 [imagenTemplate]: https://danielggarcia.files.wordpress.com/2014/05/050414_1810_patronesdec1.png?w=620
 [imagenState]: https://danielggarcia.files.wordpress.com/2014/05/052014_0541_patronesdec1.png?w=620
 [imagenVisitor]: http://www.juntadeandalucia.es/servicios/madeja/sites/default/files/imagecache/wysiwyg_imageupload_lightbox_preset/wysiwyg_imageupload/10/PatronVisitor.jpg
+[imagenIterator]: https://danielggarcia.files.wordpress.com/2014/04/041314_2356_patronesdec1.png?w=620
+[imagenChain]: https://upload.wikimedia.org/wikipedia/commons/1/1f/Chain_of_responsibility.jpg
+[imagenStrategy]: https://danielggarcia.files.wordpress.com/2014/05/051214_2126_patronesdec1.png?w=620
+[imagenMediator]: https://www.programering.com/images/remote/ZnJvbT1jbmJsb2dzJnVybD13WnVCbkx3VVRaMGd6TnpRalkyWUROaFZXTjVVV09qUkRNbEZXWTJZMk4xRVRNbGxUTHhFak13WVRNeEV6TDNBek14QWpNdll6TTVrVE54OHladnhtWXYwMmJqNXladnhtWTBsbWJqNXljbGRXWXRsMkx2b0RjMFJIYQ.jpg
+[imagenIntrepreter]: http://www.juntadeandalucia.es/servicios/madeja/sites/default/files/imagecache/wysiwyg_imageupload_lightbox_preset/wysiwyg_imageupload/10/PatronInterprete.jpg
 
 
