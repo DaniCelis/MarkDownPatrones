@@ -221,6 +221,66 @@ Puede ser utilizado en infinitas ocasiones y se le puede otorgar varios usos. Ti
 
 Este patrón busca representar una jerarquía de objetos conocida como “parte-todo”, donde se sigue la teoría de que las "partes" forman el "todo", siempre teniendo en cuenta que cada "parte" puede tener otras "parte" dentro. 
 
+##TEMPLATE METHOD
+
+1. **Funcionalidad**
+
+    
+  
+Define una estructura algorítmica cuya lógica quedará a cargo de las subclases. Para ello, escribe una clase abstracta que contiene parte de la lógica necesaria para realizar su finalidad. En ella se define una estructura de herencia que sirve de plantilla ("Template" significa plantilla) de los métodos en las subclases. 
+
+
+
+2. **Diagrama**
+
+      
+
+![Diagrama de el patron Template Method][imagenTemplate] 
+
+
+
+3. **Motivo de Eleccion**
+
+      
+
+Este patron permite que ciertos pasos de un algoritmo en una operacion de una superclase sean redefinidos en las subclases sin necesidad de tener que sobreescribir la operacion entera.
+
+##OBSERVER
+
+1. **Funcionalidad**
+
+Este patrón de diseño permite reaccionar a ciertas clases llamadas observadores sobre un evento determinado.
+Es usado en programación para monitorear el estado de un objeto en un programa. Está relacionado con el principio de invocación implícita. La motivación principal de este patrón es su utilización como un sistema de detección de eventos en tiempo de ejecución. 
+
+2. **Diagrama**
+
+![Diagrama de el patron Observer][imagenObserver]
+3. **Motivo de eleccion**
+
+Define una relacion uno a muchos entre objetos, asi cuando un objeto cambia el estado, todos los que son dependientes se notifican y se actualiza automaticamente.
+
+##STATE
+
+1. **Funcionalidad**
+
+Permite que un objeto modifique su comportamiento cada vez que cambie su estado interno. Busca que un objeto pueda reaccionar según su estado interno. Si bien muchas veces esto se puede solucionar con un boolean o utilizando constantes, esto suele terminar con una gran cantidad de if-else, código ilegible y dificultad en el mantenimiento. La intención del State es desacoplar el estado de la clase en cuestión.
+
+2. **Diagrama**
+
+![Diagrama de el patron State][imagenState]
+
+3. **Motivo de eleccion**
+
+Permite a un objeto alterar su comportamiento cuando se trata de cambios en el estado interno. El objeto aparecera para cambiar su clase.
+
+##VISITOR
+
+1. **Funcionalidad**
+
+Busca separar un algoritmo de la estructura de un objeto. La operación se implementa de forma que no se modifique el código de las clases sobre las que opera.
+Si un objeto es el responsable de mantener un cierto tipo de información, entonces es lógico asignarle también la responsabilidad de realizar todas las operaciones necesarias sobre esa información.
+
+
 [imagenAdapter]:https://danielggarcia.files.wordpress.com/2014/02/021914_0036_patronesest1.png?w=620
 [imagenBridge]:https://danielggarcia.files.wordpress.com/2014/03/031614_2328_patronesest1.png?w=620
 [imagenFacade]:https://danielggarcia.files.wordpress.com/2014/02/022014_2335_patronesest1.png?w=620
@@ -233,4 +293,8 @@ Este patrón busca representar una jerarquía de objetos conocida como “parte-
 [imagenflyweight]:https://danielggarcia.files.wordpress.com/2014/03/032414_2059_patronesest1.png?w=620
 [imagenproxy]:https://danielggarcia.files.wordpress.com/2014/04/040614_2034_patronesest1.png?w=620
 [imagencomposite]: https://danielggarcia.files.wordpress.com/2014/03/033014_1801_patronesest1.png?w=620
+[imagenObserver]: https://danielggarcia.files.wordpress.com/2014/06/060214_0019_patronesdec1.png?w=620
+[imagenTemplate]: https://danielggarcia.files.wordpress.com/2014/05/050414_1810_patronesdec1.png?w=620
+[imagenState]: https://danielggarcia.files.wordpress.com/2014/05/052014_0541_patronesdec1.png?w=620
+
 
