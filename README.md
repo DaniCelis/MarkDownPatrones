@@ -304,6 +304,6 @@ Representa una operacion que debe ser llevada a cabo basada en los elementos de 
 [imagenObserver]: https://danielggarcia.files.wordpress.com/2014/06/060214_0019_patronesdec1.png?w=620
 [imagenTemplate]: https://danielggarcia.files.wordpress.com/2014/05/050414_1810_patronesdec1.png?w=620
 [imagenState]: https://danielggarcia.files.wordpress.com/2014/05/052014_0541_patronesdec1.png?w=620
-[imagenVisitor]: https://xn--patronesdediseo-crb.com/img/patterns-articles/visitor-diagram.png
+[imagenVisitor]: http://www.juntadeandalucia.es/servicios/madeja/sites/default/files/imagecache/wysiwyg_imageupload_lightbox_preset/wysiwyg_imageupload/10/PatronVisitor.jpg
 
 
