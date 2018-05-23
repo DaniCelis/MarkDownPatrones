@@ -361,6 +361,34 @@ Si un tipo particular de problema se presenta frecuentemente, puede ser provecho
 Dado un lenguaje, define la representacion para su gramatica junto con un interprete que usa la representacion para interpretar palabras en el lenguaje.
 
 
+##COMMAND
+
+1. **Funcionalidad**
+
+Encapsula un mensaje como un objeto. Especifica una forma simple de separar la ejecución de un comando, del entorno que generó dicho comando. Permite solicitar una operación a un objeto sin conocer el contenido ni el receptor real de la misma. Si bien estas definiciones parecen un tanto ambigüas, sería oportuno volver a leerlas luego de entender el ejemplo.
+
+2. **Diagrama**
+
+![Diagrama de el patron Command][imagenCommand]
+
+3. **Motivo de Eleccion**
+
+Encapsula una peticion como objeto, asi permitiendo parametizar clienter con diferentes peticiones, y soportar varias operaciones.
+
+##MEMENTO
+
+1. **Funcionalidad**
+
+Este patrón de diseño permite capturar y exportar el estado interno de un objeto para que luego se pueda restaurar, sin romper la encapsulación.
+Su finalidad es almacenar el estado de un objeto (o del sistema completo) en un momento dado, de manera que se pueda restaurar posteriormente si fuese necesario. Para ello se mantiene almacenado el estado del objeto para un instante de tiempo en una clase independiente de aquella a la que pertenece el objeto (pero sin romper la encapsulación), de forma que ese recuerdo permita que el objeto sea modificado y pueda volver a su estado anterior.
+
+2. **Diagrama**
+
+![Diagrama de el patron Memento][imagenMemento]
+
+3. **Motivo de Eleccion**
+
+Sin violar el encapsulamiento, captura y externaliza el estado de un objeto interno de manera que el objeto pueda ser restaurado a su ultimo estado.
 
 
 
@@ -385,5 +413,7 @@ Dado un lenguaje, define la representacion para su gramatica junto con un interp
 [imagenStrategy]: https://danielggarcia.files.wordpress.com/2014/05/051214_2126_patronesdec1.png?w=620
 [imagenMediator]: https://www.programering.com/images/remote/ZnJvbT1jbmJsb2dzJnVybD13WnVCbkx3VVRaMGd6TnpRalkyWUROaFZXTjVVV09qUkRNbEZXWTJZMk4xRVRNbGxUTHhFak13WVRNeEV6TDNBek14QWpNdll6TTVrVE54OHladnhtWXYwMmJqNXladnhtWTBsbWJqNXljbGRXWXRsMkx2b0RjMFJIYQ.jpg
 [imagenInterpreter]: http://www.juntadeandalucia.es/servicios/madeja/sites/default/files/imagecache/wysiwyg_imageupload_lightbox_preset/wysiwyg_imageupload/10/PatronInterprete.jpg
+[imagenCommand]: https://danielggarcia.files.wordpress.com/2014/04/042814_1526_patronesdec1.png?w=620
+[imagenMemento]: http://www.juntadeandalucia.es/servicios/madeja/sites/default/files/imagecache/wysiwyg_imageupload_lightbox_preset/wysiwyg_imageupload/10/PatronMemento.jpg
 
 
