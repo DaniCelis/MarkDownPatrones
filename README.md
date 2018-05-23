@@ -280,6 +280,14 @@ Permite a un objeto alterar su comportamiento cuando se trata de cambios en el e
 Busca separar un algoritmo de la estructura de un objeto. La operación se implementa de forma que no se modifique el código de las clases sobre las que opera.
 Si un objeto es el responsable de mantener un cierto tipo de información, entonces es lógico asignarle también la responsabilidad de realizar todas las operaciones necesarias sobre esa información.
 
+2. **Diagrama**
+
+![Diagrama de el patron Visitor][imagenVisitor]
+
+3. **Motivo de eleccion**
+
+Representa una operacion que debe ser llevada a cabo basada en los elementos de la estructura de un objeto. Visitor permite definir una nueva operacion sin cambiar las clases de los elementos en los que opera.
+
 
 [imagenAdapter]:https://danielggarcia.files.wordpress.com/2014/02/021914_0036_patronesest1.png?w=620
 [imagenBridge]:https://danielggarcia.files.wordpress.com/2014/03/031614_2328_patronesest1.png?w=620
@@ -296,5 +304,6 @@ Si un objeto es el responsable de mantener un cierto tipo de información, enton
 [imagenObserver]: https://danielggarcia.files.wordpress.com/2014/06/060214_0019_patronesdec1.png?w=620
 [imagenTemplate]: https://danielggarcia.files.wordpress.com/2014/05/050414_1810_patronesdec1.png?w=620
 [imagenState]: https://danielggarcia.files.wordpress.com/2014/05/052014_0541_patronesdec1.png?w=620
+[imagenVisitor]: https://xn--patronesdediseo-crb.com/img/patterns-articles/visitor-diagram.png
 
 
